@@ -61,7 +61,7 @@
         'pending' => $urlBasePath . '/pending.php',
     );
 
-    $preference->notification_url = $urlBasePath . '/webhook.php';
+    $preference->notification_url = $urlBasePath . '/webhook.php?source_news=webhooks';
     $preference->auto_return = 'approved';
 
     $preference->save();
