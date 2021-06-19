@@ -70,5 +70,7 @@
     $txt .= 'collector_id:' . $preference->collector_id . "\n\n";
     file_put_contents("payment_log.txt", $txt, FILE_APPEND);
 
-    echo $preference->init_point;
+    header("Location: $preference->init_point");
+    die();
+
 ?>
