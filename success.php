@@ -99,13 +99,15 @@
 
                             <br>
 
-                            <b>Payment id:</b> <?php echo isset($_GET["preference_id"]) ? htmlspecialchars($_GET["preference_id"]) : '-' ?>
+                            <b>Payment id:</b> <?php echo isset($_GET["payment_id"]) ? htmlspecialchars($_GET["payment_id"]) : '-' ?>
+                            <br>
+                            <b>Collection id:</b> <?php echo isset($_GET["collection_id"]) ? htmlspecialchars($_GET["collection_id"]) : '-' ?>
                             <br>
                             <b>Payment type:</b> <?php echo isset($_GET["payment_type"]) ? htmlspecialchars($_GET["payment_type"]) : '-' ?>
                             <br>
-                            <b>Payment method id:</b> <?php echo isset($_GET["collection_id"]) ? htmlspecialchars($_GET["collection_id"]) : '-' ?>
-                            <br>
                             <b>External reference:</b> <?php echo isset($_GET["external_reference"]) ? htmlspecialchars($_GET["external_reference"]) : '-' ?>
+                            <br>
+                            <b>Preference id:</b> <?php echo isset($_GET["preference_id"]) ? htmlspecialchars($_GET["preference_id"]) : '-' ?>
                             <br>
 
                         </div>
